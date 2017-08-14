@@ -1,0 +1,70 @@
+[
+  {
+    "name": "ajax",
+    "metas": {
+      "changes": {
+        "v2.1.1-rc.3": {
+          "zh-CN": [
+            "[feature] 支持通过 Vue.http 调用"
+          ],
+          "en": [
+            "[feature] Export http on Vue"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "bus",
+    "metas": {
+      "changes": {
+        "v2.5.4": {
+          "en": [
+            "[feature] new plugin for managing events"
+          ],
+          "zh-CN": [
+            "[feature] 新插件，用于 vux 组件全局事件管理"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "datetime",
+    "metas": {
+      "changes": {
+        "v2.5.1": {
+          "en": [
+            "[fix] Fix style missing #1659"
+          ],
+          "zh-CN": [
+            "[fix] 修复插件形式使用时缺失样式导致报错问题 #1659"
+          ]
+        },
+        "v2.3.8": {
+          "zh-CN": [
+            "[feature] 是的，Datetime 可以作为插件直接调用了"
+          ],
+          "en": [
+            "[feature] new plugin"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "wechat",
+    "metas": {
+      "changes": {
+        "v2.1.1-rc.3": {
+          "zh-CN": [
+            "[feature] 支持通过 Vue.wechat 调用"
+          ],
+          "en": [
+            "[feature] Export wechat on Vue"
+          ]
+        }
+      }
+    }
+  }
+]

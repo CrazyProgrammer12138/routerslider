@@ -1,0 +1,540 @@
+en:
+  My Account: My Account
+  Protected: Protected
+  use is-link to show arrow: use is-link to show arrow
+  Notifications: Notifications
+  Enabled: Enabled
+  Privacy: Privacy
+  General: General
+  use slot for complexed content: use slot for complexed content
+  slot content: slot content
+  'Hi, I''m Vux.': 'Hi, I''m Vux.'
+  isLink is set to true when link exists: isLink is set to true when link exists
+  Go to Radio Demo: Go to Radio Demo
+  Go to Demo: Go to Demo
+  http link: http link
+  Money: Money
+  Collapse: Collapse
+  Title 001: Title 001
+  Title 002: Title 002
+  Title 003: Title 003
+  Animated: Animated
+  Withdraw: Withdraw
+  Important News: Important News
+  default false: default false
+  default true: default true
+  disabled: disabled
+  html title: html title
+  switch red: '<span style="color:red">I am Red.</span>'
+  Prevent auto closing: Prevent auto closing
+  Close me: Close me
+  Deleted~: Deleted~
+  'slot:header': 'slot:header'
+  Basic Usage: Basic Usage
+  Android Theme: Android Theme
+  Show cancel menu: Show cancel menu
+  menu as tips: menu as tips
+  prevent closing when clicking mask: prevent closing when clicking mask
+  Share to friends: Share to friends
+  Share to timeline: Share to timeline
+  Take Photo: Take Photo
+  Choose from photos: Choose from photos
+  actionsheet header: >-
+    Are you sure?<br/><span style="color:#666;font-size:12px;">Once deleted, you
+    will never find it.</span>
+  '<span style="color:red">Delete</span>': '<span style="color:red">Delete</span>'
+  Array menu: Array menu
+  北京: Beijing
+  上海: Shanghai
+  广州: Guangzhou
+  深圳: Shenzhen
+  天津: Tianjin
+  西安: Xian
+  重庆: Chongqing
+  杭州: Hangzhou
+  南京: Nanjing
+  武汉: Whuhan
+  成都: Chendu
+  美食: Food
+  电影: Movie
+  酒店: Hotel
+  休闲娱乐: Entertainment
+  火锅: Hot pot
+  旅游: Travel
+  代金券: Coupon
+  KTV: KTV
+  对比不做处理的1px边框: Original Ugly borders
+  Show Me: Show Me
+  Use as a plugin: Use as a plugin
+  Congratulations: Congratulations
+  Your Message is sent successfully~: Your Message is sent successfully~
+  Do you agree?: Do you agree?
+  will auto close in 3s: will auto close in 3s
+  please select: please select
+  hide on clicking mask: hide on clicking mask
+  Toggle: Toggle
+  use .sync: use .sync
+  disable background scrolling: disable background scrolling
+  long long content: long long content
+  custom dialog style: custom dialog style
+  Used in a Cell: Used in a Cell
+  New Message: New Message
+  single digit: single digit
+  Big Number: Big Number
+  red dot: red dot
+  Today: Today
+  This Week: This Week
+  This Month: This Month
+  Articles: Articles
+  Products: Products
+  Articles sync: Articles sync
+  Products sync: Products sync
+  All Messages: All Messages
+  New Messages: New Messages
+  Red Dot: Red Dot
+  Use v-model to set selected item: Use v-model to set selected item
+  'radio:no default value': 'radio:no default value'
+  潘: A
+  闲: B
+  邓: C
+  小: D
+  驴: E
+  白: White
+  富: Rich
+  美: Beautiful
+  checkbox: checkbox
+  checkbox with max limit 2: checkbox with max limit 2
+  current value is: current value is
+  default value 2: default value 2
+  custom styles: custom styles
+  select color: select color
+  used in a popup: used in a popup
+  A real world radio example: A real world radio example
+  A real world checkbox example: A real world checkbox example
+  good: good
+  nice: nice
+  awesome: awesome
+  'radio: object value': 'radio: object value'
+  'checkbox: object value': 'checkbox: object value'
+  pre-select China(disabled): pre-select China(disabled)
+  Toggle_show_input: Toggle_show_input
+  Toggle_android: Toggle_android
+  Are you sure?: Are you sure?
+  confirm deleting the item: confirm deleting the item
+  please input something: please input something
+  Plugin usage: Plugin usage
+  Show: Show
+  closeOnConfirm=false: closeOnConfirm=false
+  set value as TODAY: set value as TODAY
+  disable future: disable future
+  Default: Default
+  Quantity: Quantity
+  listen: listen to on-change events (printed on console)
+  set width=100px: set width=100px
+  set step=0.5: set step=0.5
+  'set value=1, min=-5 and max=8': 'set value=1, min=-5 and max=8'
+  fillable = true: fillable = true
+  use with other group elements: use with other group elements
+  Switch Component: Switch Component
+  round style: round style
+  set bar-active-color: set bar-active-color
+  A Horizontal Scroller without Scrollbar: A Horizontal Scroller without Scrollbar
+  A Horizontal Scroller with Scrollbar: A Horizontal Scroller with Scrollbar
+  A Horizontal Scroller without bounce effect: A Horizontal Scroller without bounce effect
+  A Vertical Scroller: A Vertical Scroller
+  A Vertical Scroller with scrollbar: A Vertical Scroller with scrollbar
+  show another list: show another list
+  Button: Button
+  'event:on-scroll-bottom': 'event:on-scroll-bottom'
+  'type:text': 'type:text'
+  'type:cancel': 'type:cancel'
+  'type:success': 'type:success'
+  'type:warn': 'type:warn'
+  'time:1s': 'time:1s'
+  long text: long text
+  success: success
+  show me code: show me code
+  'prop:text': 'prop:text'
+  default: default
+  As a plugin(>=v0.1.3): As a plugin(>=v0.1.3)
+  position: position
+  Pull Up to Refresh: Pull Up to Refresh
+  placeholder: placeholder
+  Loading...: Loading...
+  'Hi, you got a new message': 'Hi, you got a new message'
+  small dot: small dot
+  I have bottom line: I have bottom line
+  handle errors: handle errors
+  preselect China and Japan(disabled): preselect China and Japan(disabled)
+  set max=2: set max=2
+  set random order: set random order
+  Option Array with key and value(key must be string): Option Array with key and value(key must be string)
+  Option is Object with InlineDesc: Option is Object with InlineDesc
+  Async list: Async list
+  'default format: YYYY-MM-DD': 'default format: YYYY-MM-DD'
+  'format:': 'format:'
+  start time: start time
+  Placeholder: Placeholder
+  Please select: Please select
+  set min-year and max-year: set min-year and max-year
+  years after 2000: years after 2000
+  specified template text in Chinese: specified template text in Chinese
+  show center button and clear the value: show center button and clear the value
+  show center button to set date to today: show center button to set date to today
+  Birthday: Birthday
+  Chinese: Chinese
+  Click me: Click me
+  custom trigger slot: custom trigger slot
+  Limit hours: Limit hours
+  09-18: 09-18
+  set start-date and end-date: set start-date and end-date
+  'click to change value to: 2017-11-11': 'click to change value to: 2017-11-11'
+  format display value: format display value
+  toggle format: toggle format
+  'custom minute list: every 15 minutes': 'custom minute list: every 15 minutes'
+  custom hour list: custom hour list
+  'use prop:show.sync(vue^2.3) to control visibility': 'use prop:show.sync(vue^2.3) to control visibility'
+  Used as a plugin(Hide in 2s): Used as a plugin(Hide in 2s)
+  set default-selected-value to 2017-11-11: set default-selected-value to 2017-11-11
+  hide counter: hide counter
+  used with input: used with input
+  title: title
+  Type something: Type something
+  autosize: autosize
+  set height=200: set height=200
+  Popover on top: Popover on top
+  Popover on bottom: Popover on bottom
+  Popover on left: Popover on left
+  Popover on right: Popover on right
+  next step: next step
+  done: done
+  processing: processing
+  end: end
+  step 1: step 1
+  step 2: step 2
+  step 3: step 3
+  default type = img: default type = img
+  type = canvas: type = canvas
+  current url: current url
+  current fgColor: current fgColor
+  wechat emotions: wechat emotions
+  正在加载: Loading
+  暂无数据: The End
+  付款金额: Total
+  标题标题: Item Title
+  商品: Product
+  很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字: Long Long Long Long Long Long Long Long Long Long Long Long Content
+  名字名字名字: Name Name
+  电动打蛋机: Item title
+  辅助操作: Info
+  操作: Action
+  Grid: Grid
+  Go to Cell: Go to Cell
+  Fav: Fav
+  Delete: Delete
+  JavaScript is the best language: JavaScript is the best language
+  now enabled: now enabled
+  now disabled: now disabled
+  set Enabled: set Enabled
+  set Disabled: set Disabled
+  open left menu: open left menu
+  open right menu: open right menu
+  close menu: close menu
+  threshold = 0.5: threshold = 0.5
+  'Yes': 'Yes'
+  Right: Right
+  Ignore: Ignore
+  Default usage: Default usage
+  Used in a cell: Used in a cell
+  News: News
+  Async data: Async data
+  Yeah! You make it: Yeah! You make it
+  msg description: msg description
+  primary button: primary button
+  secondary button: secondary button
+  Choose: Choose
+  daterange-format: YYYY/MM/DD
+  Total: Total
+  Apple: Apple
+  Banana: Banana
+  Fish: Fish
+  loading: loading
+  cancel: cancel
+  Please select your card: Please select your card
+  used with Popup: used with Popup
+  Card 1: Card 1
+  Card 2: Card 2
+  Card 3: Card 3
+  Card 4: Card 4
+  貌似示例不存在: 'Sorry, demo doesn''t exist'
+  Set default input value: Set default input value
+  Used as a plugin: Used as a plugin
+zh-CN:
+  My Account: 我的账号
+  Protected: 保护中
+  use is-link to show arrow: 使用 is-link 显示右边箭头
+  Notifications: 接收通知
+  Enabled: 已开启
+  Privacy: 隐私
+  General: 通用
+  use slot for complexed content: 使用slot显示复杂内容
+  slot content: slot 内容
+  'Hi, I''m Vux.': 你好哇，感谢关注 Vux
+  isLink is set to true when link exists: 当有设置link属性时，isLink属性会设为true以显示箭头
+  Go to Radio Demo: 前往Radio页面
+  Go to Demo: 前往Demo页面
+  http link: 站外链接
+  Money: 余额
+  Collapse: 折叠
+  Title 001: 标题一
+  Title 002: 标题二
+  Title 003: 标题三
+  Animated: 动画效果
+  Withdraw: 提现
+  Important News: 重要消息
+  default false: 默认 false
+  default true: 默认 true
+  disabled: 禁用
+  html title: 使用html设置title
+  switch red: '<span style="color:red">我是红色</span>'
+  Prevent auto closing: 不自动关闭
+  Close me: 点我关闭
+  Deleted~: 删除成功
+  'slot:header': 使用 header slot
+  Basic Usage: 一般使用
+  Android Theme: 安卓风格
+  Show cancel menu: 显示取消菜单
+  menu as tips: 显示提示文字
+  prevent closing when clicking mask: 点击遮罩区域不自动关闭
+  Share to friends: 分享给朋友
+  Share to timeline: 分享到朋友圈
+  Take Photo: 拍照
+  Choose from photos: 从相册选择
+  actionsheet header: '确定咩?<br/><span style="color:#666;font-size:12px;">删除后就无法撤消了哦</span>'
+  '<span style="color:red">Delete</span>': '<span style="color:red">删除</span>'
+  Array menu: 使用数组定义菜单
+  北京: 北京
+  上海: 上海
+  广州: 广州
+  深圳: 深圳
+  天津: 天津
+  西安: 西安
+  重庆: 重庆
+  杭州: 杭州
+  南京: 南京
+  武汉: 武汉
+  成都: 成都
+  美食: 美食
+  电影: 电影
+  酒店: 酒店
+  休闲娱乐: 休闲娱乐
+  火锅: 火锅
+  旅游: 旅游
+  代金券: 代金券
+  KTV: KTV
+  对比不做处理的1px边框: 对比不做处理的1px边框
+  Show Me: 显示
+  Use as a plugin: 以插件方式调用
+  Congratulations: 恭喜
+  Your Message is sent successfully~: 消息已成功发送
+  Do you agree?: 同意不?
+  will auto close in 3s: 3秒后关闭
+  please select: 请选择
+  hide on clicking mask: 点击遮罩自动关闭
+  Toggle: 显示
+  use .sync: 使用 .sync
+  disable background scrolling: 背景不可滚动
+  long long content: 很长很长的内容
+  custom dialog style: 自定义 dialog 容器样式
+  Used in a Cell: 在 Cell 组件里使用
+  New Message: 新消息
+  single digit: 个位数
+  Big Number: 多位数
+  red dot: 红点
+  Today: 今天
+  This Week: 本周
+  This Month: 本月
+  Articles: 文章
+  Products: 商品
+  Articles sync: 文章同步
+  Products sync: 商品同步
+  All Messages: 所有消息
+  New Messages: 新消息
+  Red Dot: 红点
+  Use v-model to set selected item: 使用 v-model 设置当前选中项
+  'radio:no default value': 单选，默认不选中任何项
+  潘: 潘
+  闲: 闲
+  邓: 邓
+  小: 小
+  驴: 驴
+  白: 白
+  富: 富
+  美: 美
+  checkbox: 多选
+  checkbox with max limit 2: 多选，最多只能选2个
+  current value is: 当前值为
+  default value 2: 默认值2
+  custom styles: 自定义样式
+  select color: 选择颜色
+  used in a popup: Popup 组件中使用
+  A real world radio example: 单选常见例子
+  A real world checkbox example: 多选常见例子
+  good: 好
+  nice: 很好
+  awesome: 特别好
+  'radio: object value': 单选：object类型
+  'checkbox: object value': 多选：object类型
+  pre-select China(disabled): 默认值 China(禁用操作)
+  Toggle_show_input: 显示Promt
+  Toggle_android: 安卓风格
+  Are you sure?: 确定咩？
+  confirm deleting the item: 操作提示
+  please input something: 请输入些什么
+  Plugin usage: 插件形式调用
+  Show: 显示
+  closeOnConfirm=false: 阻止自动关闭
+  set value as TODAY: 设置时间为今天
+  disable future: 禁止选择未来时间
+  Default: 默认
+  Quantity: 数量
+  listen: 监听 on-change 事件，在调试窗口中输出
+  set width=100px: 设置宽度为100px
+  set step=0.5: 设置步长为0.5
+  'set value=1, min=-5 and max=8': 设置值为1，最小值为-5，最大值为8
+  fillable = true: 设置可以输入
+  use with other group elements: 和其他group子元素一起使用
+  Switch Component: Switch 组件
+  round style: 圆形按钮
+  set bar-active-color: 设置bar颜色
+  A Horizontal Scroller without Scrollbar: 不带滚动条的水平 scroller
+  A Horizontal Scroller with Scrollbar: 显示滚动条的水平 scroller
+  A Horizontal Scroller without bounce effect: 没有边缘回滚效果的水平 scroller
+  A Vertical Scroller: 竖向 scroller
+  A Vertical Scroller with scrollbar: 显示滚动条的竖向 scroller
+  show another list: 改变显示的内容
+  Button: 按钮
+  'event:on-scroll-bottom': 检查是否滚动到底部
+  'type:text': type为text
+  'type:cancel': type为cancel
+  'type:success': type为success
+  'type:warn': type为警告
+  'time:1s': 显示时间1s
+  long text: 很长的文字
+  success: 成功啦~
+  show me code: 'Talk is cheap, show me the code.'
+  'prop:text': 设置text
+  default: 默认
+  As a plugin(>=v0.1.3): 插件形式调用
+  position: 位置
+  Pull Up to Refresh: 上拉刷新
+  placeholder: 提示
+  Loading...: 努力加载中
+  'Hi, you got a new message': 新消息
+  small dot: 小点
+  I have bottom line: 我是有底线的
+  handle errors: 处理错误
+  preselect China and Japan(disabled): 默认选中China和Japan(禁用操作)
+  set max=2: 最多可选中2个
+  set random order: 打乱选项顺序
+  Option Array with key and value(key must be string): 使用Object类型的选项列表，key必须为字符串
+  Option is Object with InlineDesc: 包含inlineDesc属性的Object类型选项列表
+  Async list: 异步选项列表
+  'default format: YYYY-MM-DD': 默认格式：YYYY-MM-DD
+  'format:': 格式：
+  start time: 开始时间
+  Placeholder: 提示文字
+  Please select: 请选择
+  set min-year and max-year: 设置开始和结束年份
+  years after 2000: 2000年以后时间
+  specified template text in Chinese: 自定义中文显示模板
+  show center button and clear the value: 显示中间的清除按钮
+  show center button to set date to today: 显示中间的设置日期为今天的按钮
+  Birthday: 生日
+  Chinese: 中文
+  Click me: 点我
+  custom trigger slot: 自定义触发内容
+  Limit hours: 限定小时范围
+  09-18: 工作时间 09-18
+  set start-date and end-date: 设置开始时间和结束日期
+  'click to change value to: 2017-11-11': 设置时间为 2017-11-11
+  format display value: 格式化显示
+  toggle format: 改变格式
+  'custom minute list: every 15 minutes': 自定义分钟列表（每15分钟）
+  custom hour list: 定义小时列表
+  'use prop:show.sync(vue^2.3) to control visibility': '使用 prop:show 控制显示(vue^2.3)'
+  Used as a plugin(Hide in 2s): 插件形式调用
+  set default-selected-value to 2017-11-11: 设置默认选中值为 2017-11-11
+  hide counter: 不显示计数器
+  used with input: 和input一起使用
+  title: 标题
+  Type something: 随便写点什么
+  autosize: 自动高度
+  set height=200: 设置高度为200像素
+  Popover on top: 上方出现
+  Popover on bottom: 下方出现
+  Popover on left: 左边出现
+  Popover on right: 右边出现
+  next step: 下一步
+  done: 确定
+  processing: 进行中
+  end: 结束
+  step 1: 步骤1
+  step 2: 步骤2
+  step 3: 步骤3
+  default type = img: 默认类型为 img，可以在微信里长按识别
+  type = canvas: 类型为 canvas
+  current url: 当前url
+  current fgColor: 当前颜色
+  wechat emotions: 微信表情列表
+  正在加载: 正在加载
+  暂无数据: 暂无数据
+  付款金额: 付款金额
+  标题标题: 标题标题
+  商品: 商品
+  很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字: 很长很长的名字很长很长的名字很长很长的名字很长很长的名字很长很长的名字
+  名字名字名字: 名字名字名字
+  电动打蛋机: 电动打蛋机
+  辅助操作: 辅助操作
+  操作: 操作
+  Grid: 九宫格
+  Go to Cell: 跳转到Cell
+  Fav: 收藏
+  Delete: 删除
+  JavaScript is the best language: JavaScript 是最好的语言
+  now enabled: 当前可操作
+  now disabled: 当前不可操作
+  set Enabled: 设置可操作
+  set Disabled: 设置不可操作
+  open left menu: 打开左菜单
+  open right menu: 打开右菜单
+  close menu: 关闭菜单
+  threshold = 0.5: 设置滑动阙值为 0.5
+  'Yes': 是的
+  Right: 正确
+  Ignore: 忽略
+  Default usage: 默认
+  Used in a cell: 在 cell 中使用
+  News: 公告
+  Async data: 异步数据
+  Yeah! You make it: 操作成功
+  msg description: '内容详情，可根据实际需要安排，如果换行则不超过规定长度，居中展现<a href="javascript:void(0);">文字链接</a>'
+  primary button: 推荐操作
+  secondary button: 辅助操作
+  Choose: 选择
+  daterange-format: YYYY年MM月DD日
+  Total: 合计
+  Apple: 苹果
+  Banana: 香蕉
+  Fish: 鱼肉
+  loading: 加载中
+  cancel: 取消
+  Please select your card: 请选择银行卡
+  used with Popup: Popup 中使用
+  Card 1: 招商银行
+  Card 2: 工商银行
+  Card 3: 农业银行
+  Card 4: 增加银行卡
+  貌似示例不存在: 貌似示例不存在
+  Set default input value: 设置默认输入文字
+  Used as a plugin: 插件形式调用

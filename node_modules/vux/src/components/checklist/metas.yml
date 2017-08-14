@@ -1,0 +1,101 @@
+icon: '&#xe61d;'
+tags:
+  en:
+    - checklist
+    - select
+    - form
+props:
+  value:
+    type: Array
+    default: []
+    en: form value
+    zh-CN: 表单值
+  title:
+    type: String
+    default: ''
+    en: title
+    zh-CN: 标题
+  required:
+    type: Boolean
+    default: false
+    en: if required
+    zh-CN: 是否为必填
+  options:
+    type: Array
+    default: []
+    en: option list
+    zh-CN: 选项列表，可以为`[{key:'name',value:'value',inlineDesc:'inlineDesc'}]`的形式
+  max:
+    type: Number
+    default: ''
+    en: max selected number
+    zh-CN: 最多可选个数
+  min:
+    type: Number
+    default: ''
+    en: min selected number
+    zh-CN: 最少可选个数
+  random-order:
+    type: Boolean
+    default: false
+    en: if shuffing options
+    zh-CN: 是否随机打乱选项顺序
+  check-disabled:
+    version: v2.2.1-rc.1
+    type: Boolean
+    default: true
+    en: if disabled item when selectedItems.length === total.length, by using this prop:max no longer works
+    zh-CN: 是否进行可选检测，默认情况下当选择个数等于可选个数(max)时，其他项不可选择。该选项主要适用于从多个选项列表中收集值的场景。注意的该选项设为 false 时 max 设置将失效。
+  label-position:
+    version: v2.2.1-rc.4
+    type: String
+    en: label position, can be set to left
+    zh-CN: label 位置，可以设置为 left
+  disabled:
+    version: v2.3.8
+    en: if disable user from selecting
+    zh-CN: 是否禁用操作
+events:
+  on-change:
+    params: '(value, label)'
+    en: emits when value changes, param:label is supported after v2.5.7
+    zh-CN: 值变化时触发，参数为 (value, label)，其中 label 参数在 v2.5.7 后支持
+changes:
+  v2.5.7:
+    en:
+      - '[feature] Support `label` param for on-change event #1783'
+    zh-CN:
+      - '[feature] 支持在 on-change 事件中附带 `label` 值 #1783'
+  v2.3.8:
+    en:
+      - '[feature] Add prop:disabled #1254'
+    zh-CN:
+      - '[feature] 支持 prop:disabled 禁用操作 #1254'
+  v2.2.1-rc.4:
+    en:
+      - '[feature] Support prop:label-position'
+    zh-CN:
+      - '[feature] 支持通过 prop:label-position 设置 label位置'
+  v2.2.1-rc.1:
+    en:
+      - '[feature] Support prop:check-disabled'
+    zh-CN:
+      - '[feature] 支持 prop:check-disabled'
+  v2.0.0:
+    en:
+      - '[change] it does not show errors by default, handle errors by on-error events'
+      - '[feature] add slot:footer slot:after-title'
+      - '[change] if value.length === max, the left items will be disabled'
+      - '[change] default required value is false'
+    zh-CN:
+      - '[change] 默认不显示错误，你可以监听on-error事件结合slot进行处理和显示'
+      - '[feature] 添加插槽 footer、after-title'
+      - '[change] 如果已经达到max上限，没有选中的选项将不能选择，因此不再和之前版本一样会出现最多可选max个的error信息'
+      - '[change] 默认 required 值为false, 与html规范一致'
+  v2.5.2:
+    en:
+      - '[fix] emit event `input` before `on-change`'
+      - '[feature] add attribute `inlineDesc` to `options`'
+    zh-CN:
+      - '[fix] 在 `on-change` 事件之前 emit `input` 事件'
+      - '[feature] `options` 中增加 `inlineDesc` 属性'

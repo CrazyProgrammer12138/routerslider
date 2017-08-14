@@ -1,0 +1,96 @@
+icon: '&#xe615;'
+items:
+  - tab
+  - tab-item
+tags:
+  en:
+    - tab
+  zh-CN:
+    - 选项
+    - 选项卡
+import_code: "import { Tab, TabItem } from 'vux'"
+extra: |
+
+  如果需要监听`tab-item`的点击事件，请使用`on-item-click`事件:
+
+  ``` html
+  <tab>
+    <tab-item @on-item-click="handler"></tab-item>
+  </tab>
+  ```
+
+tab:
+  props:
+    line-width:
+      type: Number
+      default: 3
+      zh-CN: 线条宽度
+    active-color:
+      zh-CN: 选中时文字颜色
+    defaultColor:
+      zh-CN: 默认文字颜色
+    disabled-color:
+      zh-CN: 不可点击时文字颜色
+    bar-active-color:
+      zh-CN: '设置底部`bar`颜色，该颜色也可以通过`less`变量`@tab-bar-active-color`设置。'
+    animate:
+      type: Boolean
+      default: true
+      zh-CN: 切换时是否需要动画
+    custom-bar-width:
+      type: String, Function
+      version: v2.1.1-rc.7
+      en: 'set active bar width, like `50px`. or you can use function, param is `(currentInex)`'
+      zh-CN: '设置底部`bar`宽度，默认宽度是整体tab宽度平分，比如`50px`。使用函数时参数为当前索引`index`，你可以定义不同`tab-item`对应的`bar`宽度。'
+    badge-label:
+      version: v2.3.5
+      type: String
+      en: badge label
+      zh-CN: 徽标文字
+    badge-background:
+      version: v2.3.5
+      type: String
+      default: #f74c31
+      en: badge background color
+      zh-CN: 徽标背景颜色
+    badge-color:
+      version: v2.3.5
+      type: String
+      default: #fff
+      en: badge font color
+      zh-CN: 徽标文字颜色
+tab-item:
+  props:
+    disabled:
+      type: Boolean
+      default: false
+      zh-CN: 是否不可选
+    active-class:
+      zh-CN: 当前项选中时的class
+  events:
+    on-item-click:
+      params: '`(index)`'
+      version: v2.2.1-rc.4
+      en: emits when current tabItem is clicked
+      zh-CN: 当前 tabItem 被点击时触发
+changes:
+  v2.3.5:
+    en:
+      - '[feature] Support badge #1513'
+    zh-CN:
+      - '[feature] 支持设置 badge #1513'
+  v2.2.1-rc.4:
+    en:
+      - '[enhance] Support param:index on event:on-item-click'
+    zh-CN:
+      - '[enhance] 支持 on-item-click 带上 index 参数'
+  v2.1.1-rc.7:
+    en:
+      - '[feature] Support setting bar width with prop:custom-bar-width'
+      - '[fix] Fix errors when initializing without tab-item #1038 @liu2010y'
+    zh-CN:
+      - '[feature] 支持定义 bar 宽度'
+      - '[fix] 修复初始化时没有 tab-item 时导致报错 #1038 @liu2010y'
+  v2.1.0-rc.46:
+    zh-CN:
+      - '[feature] 支持设置 `bar-active-color` #715 @greedying'

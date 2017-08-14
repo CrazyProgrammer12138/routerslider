@@ -1,0 +1,96 @@
+[
+  {
+    "name": "date",
+    "metas": {
+      "changes": {
+        "v2.3.2": {
+          "en": [
+            "[enhance] return empty string when no date is specified"
+          ],
+          "zh-CN": [
+            "[enhance] 无时间参数时返回字符串"
+          ]
+        },
+        "v2.1.1-rc.9": {
+          "en": [
+            "[feature] Add dateRange tool function",
+            "[feature] format support string-type of date"
+          ],
+          "zh-CN": [
+            "[feature] 添加日期范围生成函数",
+            "[feature] format 函数支持字符串参数"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "debounce",
+    "metas": {
+      "changes": {
+        "v2.1.0-rc.48": {
+          "zh-CN": [
+            "[feature] 添加`debounce`工具"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "md5",
+    "metas": {
+      "changes": {
+        "v2.1.1-rc.5": {
+          "zh-CN": [
+            "[feature] 修复 import 和 module.exports 混用的问题 #1007 @zack24q"
+          ],
+          "en": [
+            "[feature] Fix import and module.exports issue #1007 @zack24q"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "number",
+    "metas": {
+      "changes": {
+        "v2.1.1-rc.9": {
+          "en": [
+            "[feature] Add numberRange tool function"
+          ],
+          "zh-CN": [
+            "[feature] 添加数字范围生成函数"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "string",
+    "metas": {
+      "changes": {
+        "v2.3.6": {
+          "en": [
+            "[enhance] trim is now alias to stringTrim"
+          ],
+          "zh-CN": [
+            "[enhance] 可以直接引用 trim 代替原来的 stringTrim"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "throttle",
+    "metas": {
+      "changes": {
+        "v2.1.0-rc.48": {
+          "zh-CN": [
+            "[feature] 添加`throttle`工具"
+          ]
+        }
+      }
+    }
+  }
+]

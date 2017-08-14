@@ -1,0 +1,10 @@
+icon: '&#xe610;'
+extra:
+  en: 'require vux@^2.3.4'
+  zh-CN: '版本要求 vux@^2.3.4'
+changes:
+  v2.3.4:
+    en:
+      - '[feature] new component'
+    zh-CN:
+      - '[feature] 新组件'
